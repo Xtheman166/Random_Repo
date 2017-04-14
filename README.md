@@ -1,2 +1,2 @@
 # Stupid_Repo
-Its a stupid repo
+This will contain random code.
