@@ -20,6 +20,10 @@ bot.command(:game, description: 'what do you think') do |event, *game|
             event.respond("Game set to `#{game.join(' ')}`")
 end
 
+bot.command(:pepsi:) do |event|
+  event.respond("https://static.comicvine.com/uploads/original/12/127594/2914770-pepsiman.jpg")
+end
+
 bot.command(:pm) do |event|
   event.user.pm ('Fuck you bitch')
 end
