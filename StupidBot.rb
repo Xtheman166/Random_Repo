@@ -27,3 +27,5 @@ end
 bot.command(:pm) do |event|
   event.user.pm ('Fuck you bitch')
 end
+
+bot.run
