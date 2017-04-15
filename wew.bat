@@ -1,1 +1,1 @@
-echo wew
+wew
