@@ -19,3 +19,7 @@ bot.command(:game, description: 'what do you think') do |event, *game|
             event.bot.game = game.join(' ')
             event.respond("Game set to `#{game.join(' ')}`")
 end
+
+bot.command(:pm) do |event|
+  event.user.pm ('Fuck you bitch')
+end
